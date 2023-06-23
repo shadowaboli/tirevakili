@@ -1,0 +1,91 @@
+name: tirevakili
+description: tirevakili Flutter project.
+
+publish_to: 'none'
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.2
+  connectivity_plus: ^3.0.3
+  internet_connection_checker: ^1.0.0+1
+  easy_splash_screen: ^1.0.4
+  get: ^4.6.5
+  webview_flutter: ^4.2.2
+  webview_flutter_android: ^3.7.1
+  webview_flutter_wkwebview: ^3.4.4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+  flutter_lints: ^2.0.0
+
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+  fonts:
+    - family: VazirBlack
+      fonts:
+        - asset: fonts/vazir/Vazirmatn-Black.ttf
+    - family: VazirBold
+      fonts:
+        - asset: fonts/vazir/Vazirmatn-Bold.ttf
+    - family: VazirExtraBold
+      fonts:
+        - asset: fonts/vazir/Vazirmatn-ExtraBold.ttf
+    - family: VazirExtraLight
+      fonts:
+        - asset: fonts/vazir/Vazirmatn-ExtraLight.ttf
+    - family: VazirLight
+      fonts:
+        - asset: fonts/vazir/Vazirmatn-Light.ttf
+    - family: VazirMedium
+      fonts:
+        - asset: fonts/vazir/Vazirmatn-Medium.ttf
+    - family: VazirRegular
+      fonts:
+        - asset: fonts/vazir/Vazirmatn-Regular.ttf
+    - family: VazirSemiBold
+      fonts:
+        - asset: fonts/vazir/Vazirmatn-SemiBold.ttf
+    - family: VazirThin
+      fonts:
+        - asset: fonts/vazir/Vazirmatn-Thin.ttf
+    - family: YekanBlack
+      fonts:
+        - asset: fonts/yekan/IRANYekanMobileBlack.ttf
+    - family: YekanBold
+      fonts:
+        - asset: fonts/yekan/IRANYekanMobileBold.ttf
+    - family: YekanExtraBlack
+      fonts:
+        - asset: fonts/yekan/IRANYekanMobileExtraBlack.ttf
+    - family: YekanExtraBold
+      fonts:
+        - asset: fonts/yekan/IRANYekanMobileExtraBold.ttf
+    - family: YekanLight
+      fonts:
+        - asset: fonts/yekan/IRANYekanMobileLight.ttf
+    - family: YekanMedium
+      fonts:
+        - asset: fonts/yekan/IRANYekanMobileMedium.ttf
+    - family: YekanRegular
+      fonts:
+        - asset: fonts/yekan/IRANYekanMobileRegular.ttf
+    - family: YekanThin
+      fonts:
+        - asset: fonts/yekan/IRANYekanMobileThin.ttf
